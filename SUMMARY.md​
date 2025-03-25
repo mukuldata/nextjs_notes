@@ -5,88 +5,88 @@
 ## Fundamentals of Next JS
 
 * [Next JS](fundamentals-of-next-js/next-js.md)
-* [Next JS vs React JS](next-js-vs-react-js.md)
-* [File-based routing](file-based-routing.md)
+* [Next JS vs React JS](fundamentals-of-next-js/next-js-vs-react-js.md)
+* [File-based routing](fundamentals-of-next-js/file-based-routing.md)
 
 ## Routing
 
 * [Static and Dynamic Routes](routing/static-and-dynamic-routes.md)
-* [Nested Routes](nested-routes.md)
-* [API Routes](api-routes.md)
-* [Middleware](middleware.md)
-* [Parallel & Intercepting Routes](parallel-and-intercepting-routes.md)
+* [Nested Routes](routing/nested-routes.md)
+* [API Routes](routing/api-routes.md)
+* [Middleware](routing/middleware.md)
+* [Parallel & Intercepting Routes](routing/parallel-and-intercepting-routes.md)
 
 ## Rendering & Data Fetching
 
 * [Server-Side Rendering (SSR)](rendering-and-data-fetching/server-side-rendering-ssr/README.md)
   * [Authentication example](rendering-and-data-fetching/server-side-rendering-ssr/authentication-example.md)
-* [Static Site Generation (SSG)](static-site-generation-ssg.md)
-* [Incremental Static Regeneration (ISR)](incremental-static-regeneration-isr.md)
-* [Client-Side Fetching](client-side-fetching.md)
-* [React Query in Next JS](react-query-in-next-js/README.md)
-  * [Mutations](react-query-in-next-js/mutations.md)
-* [Layouts](layouts.md)
+* [Static Site Generation (SSG)](rendering-and-data-fetching/static-site-generation-ssg.md)
+* [Incremental Static Regeneration (ISR)](rendering-and-data-fetching/incremental-static-regeneration-isr.md)
+* [Client-Side Fetching](rendering-and-data-fetching/client-side-fetching.md)
+* [React Query in Next JS](rendering-and-data-fetching/react-query-in-next-js/README.md)
+  * [Mutations](rendering-and-data-fetching/react-query-in-next-js/mutations.md)
+* [Layouts](rendering-and-data-fetching/layouts.md)
 
 ## State Management
 
 * [Context API](state-management/context-api.md)
-* [Redux Toolkit](redux-toolkit.md)
-* [Zustand/Jotai/Recoil](zustand-jotai-recoil.md)
+* [Redux Toolkit](state-management/redux-toolkit.md)
+* [Zustand/Jotai/Recoil](state-management/zustand-jotai-recoil.md)
 
 ## Performance Optimization
 
 * [Image Optimization](performance-optimization/image-optimization.md)
-* [Code Splitting](code-splitting.md)
-* [Font Optimization](font-optimization.md)
-* [Caching & Revalidation](caching-and-revalidation.md)
-* [Performance: Server Vs Client Component](performance-server-vs-client-component.md)
+* [Code Splitting](performance-optimization/code-splitting.md)
+* [Font Optimization](performance-optimization/font-optimization.md)
+* [Caching & Revalidation](performance-optimization/caching-and-revalidation.md)
+* [Performance: Server Vs Client Component](performance-optimization/performance-server-vs-client-component.md)
 
 ## Styling in Next.js
 
 * [Global CSS, CSS Modules, Tailwind CSS, Styled Components](styling-in-next.js/global-css-css-modules-tailwind-css-styled-components.md)
-* [Server-side styled-components](server-side-styled-components.md)
+* [Server-side styled-components](styling-in-next.js/server-side-styled-components.md)
 
 ## Authentication & Authorization
 
 * [NextAuth.js integration](authentication-and-authorization/nextauth.js-integration.md)
-* [JWT authentication & custom authentication](jwt-authentication-and-custom-authentication.md)
-* [Middleware-based authentication](middleware-based-authentication.md)
-* [Role-based access control (RBAC)](role-based-access-control-rbac.md)
+* [JWT authentication & custom authentication](authentication-and-authorization/jwt-authentication-and-custom-authentication.md)
+* [Middleware-based authentication](authentication-and-authorization/middleware-based-authentication.md)
+* [Role-based access control (RBAC)](authentication-and-authorization/role-based-access-control-rbac.md)
 
 ## Deployment & Hosting
 
 * [Vercel deployment & Edge Functions](deployment-and-hosting/vercel-deployment-and-edge-functions.md)
-* [Dockerizing Next.js Apps](dockerizing-next.js-apps.md)
-* [Environment variables](environment-variables.md)
+* [Dockerizing Next.js Apps](deployment-and-hosting/dockerizing-next.js-apps.md)
+* [Environment variables](deployment-and-hosting/environment-variables.md)
 
 ## SEO & Accessibility
 
 * [Metadata handling](seo-and-accessibility/metadata-handling.md)
-* [Optimizing Lighthouse Scores](optimizing-lighthouse-scores.md)
+* [Optimizing Lighthouse Scores](seo-and-accessibility/optimizing-lighthouse-scores.md)
 
 ## Server Actions & Form Handling
 
 * [Server Actions](server-actions-and-form-handling/server-actions.md)
-* [Form Handling](form-handling.md)
-* [Mutations in Server Actions](mutations-in-server-actions.md)
+* [Form Handling](server-actions-and-form-handling/form-handling.md)
+* [Mutations in Server Actions](server-actions-and-form-handling/mutations-in-server-actions.md)
 
-## &#x20;Performance & Build Enhancements
+## Performance & Build Enhancements
 
-* [Turbopack  vs Webpack/Vite](performance-and-build-enhancements/turbopack-vs-webpack-vite.md)
-* [Partial Prerendering](partial-prerendering.md)
+* [Turbopack vs Webpack/Vite](performance-and-build-enhancements/turbopack-vs-webpack-vite.md)
+* [Partial Prerendering](performance-and-build-enhancements/partial-prerendering.md)
 
 ## Middleware & Streaming
 
 * [Streaming with Middleware](middleware-and-streaming/streaming-with-middleware.md)
-* [Streaming SSR with Suspense](streaming-ssr-with-suspense.md)
-* [Progressive rendering with Suspense](progressive-rendering-with-suspense.md)
+* [Streaming SSR with Suspense](middleware-and-streaming/streaming-ssr-with-suspense.md)
+* [Progressive rendering with Suspense](middleware-and-streaming/progressive-rendering-with-suspense.md)
 
 ## Next.js & AI Integration
 
 * [Using Vercel AI SDK with Next.js](next.js-and-ai-integration/using-vercel-ai-sdk-with-next.js.md)
-* [Building AI-powered applications](building-ai-powered-applications.md)
+* [Building AI-powered applications](next.js-and-ai-integration/building-ai-powered-applications.md)
 
 ## Monorepo & Turborepo Integration
 
 * [Setting up Next.js in a monorepo](monorepo-and-turborepo-integration/setting-up-next.js-in-a-monorepo.md)
-* [Benefits of Turborepo](benefits-of-turborepo.md)
+* [Benefits of Turborepo](monorepo-and-turborepo-integration/benefits-of-turborepo.md)
